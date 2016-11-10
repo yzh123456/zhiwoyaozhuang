@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知我药妆(首页)</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link href="css/com.css" type="text/css" rel="stylesheet"/>
+	<link href="css/zycontainer.css" type="text/css" rel="stylesheet"/>
+	<script src="libs/jquery-1.11.3.js"></script>
+	
+	<script src="libs/jquery.cookie.js"></script>
+
+
+	
+	<script src="js/getdata1.js"></script>
+	<script src="js/getdata2.js"></script>
+
+
+
+	<script>
+
+	$(function(){
+
+
+
+
+		//header
+		$('#header').load('html/header.html',function(){
+
+			$.getScript('js/getheader.js');
+			$.getScript('js/getusername.js');
+
+			$.getScript('js/getnumber.js');
+
+	
+		
+		})
+		//  banner
+		$('#container').children().eq(0).load('html/banner.html',function(){
+			$.getScript('js/getbanner.js');
+		})
+		//main_push
+
+
+		//change
+
+		$('#container').children().eq(3).load('html/change.html',function(){
+			$.getScript('js/getchange.js')
+		})
+
+		//marque
+		$('#container').children().eq(4).load('html/marque.html',function(){
+			$.getScript('js/getmarquelist.js');
+		})
+		//csearchbox
+		$('#container').children().eq(6).load('html/csearchbox.html')
+
+		//footer
+		$('.footer').load('html/footer.html');
+
+		//icon 的点击事件
+		$('.icon').click(function(){
+			$(this).css('display','none');
+		})
+		//panel右侧边栏 ——————购物车
+		$('.panel').load('html/panel.html',function(){
+			$.getScript('js/getpanel.js')
+
+			$.getScript('js/getbuy.js')
+
+		});
+		//sidenav左侧边栏
+		$('.side_nav').load('html/sidenav.html',function(){
+			$.getScript('js/getsidenav.js');
+			
+
+
+		})
+
+
+
+
+			
+
+		
+	})
+	</script>
+</head>
+<body>
+<div class="warp">
+<!--***********************header*******************************-->
+	<div id="header"></div>
+<!--*****************************container************************-->
+	<div id="container">
+<!--*****************************banner**************************-->
+		<div class="banner"></div>
+<!--****************************main_push************************-->		
+		<div class="main_push">
+			<h1><span>今日头条</span><i>TODAY HEADLINES</i></h1>
+			<div class="main_list">
+				<ul>
+				</ul>
+			</div><!--main_list的结尾-->
+		</div>
+<!--*******************************brand_list*************************-->
+	<div class="brand_list">
+		<h2><p><span>品牌团</span><i>COSMETICS BRANDS</i></p></h2>
+		<div class="list_inner">
+			<ul>
+				<li style="margin-left:0;"><a href="jacascript:;" target="_blank"><img src="images/16659547635030272610.jpg"/></a></li>
+				<li><a href="jacascript:;" target="_blank"><img src="images/18007182278140465112.jpg"/></a></li>
+				<li><a href="jacascript:;" target="_blank"><img src="images/2958234838522668057.jpg"/></a></li>
+			</ul>
+		</div>
+	</div>
+<!--*******************************change************************-->
+	<div class="change"></div>
+
+<!--*******************************marque************************-->
+
+	<div class="marque_list"></div>
+
+<!--**********************new_box*******************************-->
+<div class="new_box">
+	<h2><p><span>今日新品</span><i>HOT DEALS TODAY</i></p></h2>
+	<div class="new_list">
+		<ul class="new_inner">
+			<li>
+				
+			</li>
+		</ul>
+	</div><!--new_list的结尾-->
+
+
+	</div><!--new_box的结尾-->
+
+<!--**********************search_box*************************-->
+<div class="c_search_box"></div>
+
+</div><!--container的结尾 -->
+
+<!--**********************footer*************************-->	
+<div class="footer"></div>	<!--footer的结尾 -->
+<!--**********************icon*************************-->
+<div class="icon"></div>
+<!--********************panel************************-->
+<div class="panel"></div>
+<!--********************side_nav************************-->
+<div class="side_nav"></div>
+	
+
+	
+
+
+
+	
+	
+
+</div><!--warp的结尾 -->	
+
+
+
+		
+
+	
+
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

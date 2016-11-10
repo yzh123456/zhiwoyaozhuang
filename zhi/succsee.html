@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知我药妆(订单提交成功)</title>
+
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link href="css/com.css" type="text/css" rel="stylesheet"/>
+	<link href="css/success.css" type="text/css" rel="stylesheet"/>
+	<link type="text/css" href="css/settle.css" rel="stylesheet"/>
+	
+
+	<script src="libs/jquery-1.11.3.js"></script>
+	
+	<script src="libs/jquery.cookie.js"></script>
+	<script>
+
+	$(function(){
+
+		//header
+		$('.header').load('html/sucessheader.html',function(){
+			$.getScript('js/getheader.js')
+			$.getScript('js/getusername.js')
+		})
+
+		//container
+
+		$('.container').load('html/sucesscontainer.html',function(){
+			$.getScript('js/getsucess.js')
+		})
+
+		//footer
+
+		$('.footer').load('html/footer.html')
+	})
+
+	</script>
+</head>
+<body>
+<div class="warp">
+<!--**********************header***********************-->
+	<div class="header"></div>
+
+	<!--******************container********************-->
+	<div class="container">	</div><!--contbox-->
+	<!--******************footer********************-->
+	<div class="footer"></div>
+
+
+
+	
+
+	
+	</div><!--container-->
+</div>
+	
+</body>
+</html>

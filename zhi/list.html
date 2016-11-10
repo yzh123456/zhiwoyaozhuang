@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>(知我药妆)列表页</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link href="css/com.css"   type="text/css" rel="stylesheet"/>
+	<link href="css/login.css" type="text/css" rel="stylesheet"/>
+	<link href="css/list.css"  type="text/css" rel="stylesheet"/>
+
+	<link href="css/pagination.css" type="text/css" rel="stylesheet"/>
+	<script src="libs/jquery-1.11.3.js"></script>
+
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="libs/jquery.pagination.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script>
+
+		$(function(){
+			//header
+
+			$('.header').load('html/detailsheader.html',function(){
+				$.getScript('js/getheader.js');
+				$.getScript('js/getusername.js');
+			})
+			//container
+			$('.container').load('html/listcontainer.html',function(){
+				$.getScript('js/getlist.js')
+				$.getScript('js/getdata4.js')
+			})
+
+			//footer
+			$('.footer').load('html/footer.html')
+			//icon
+			$('.icon').click(function(){
+				$(this).css('display','none');
+			})
+			//panel
+			$('.panel').load('html/panel.html',function(){
+				$.getScript('js/getpanel.js')
+
+				$.getScript('js/getbuy.js')
+			})
+
+
+		})
+	</script>
+</head>
+<body>
+<div class="warp">
+<!--**************************header**************************-->
+<div class="header"></div>
+<!--**************************container**************************-->
+
+<div class="container"></div>
+<!--**************************footer**************************-->
+<div class="footer"></div>
+<!--**********************icon*************************-->
+<div class="icon"></div>
+<!--********************panel************************-->
+<div class="panel"></div>
+
+</div>
+	
+</body>
+</html>

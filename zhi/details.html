@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知我药妆(详情页)</title>
+	<link type="text/css" href="css/reset.css" rel="stylesheet"/>
+	<link type="text/css" href="css/com.css" rel="stylesheet"/>
+	<link href="css/login.css" type="text/css" rel="stylesheet"/>
+
+	<link type="text/css" href="css/details.css" rel="stylesheet"/>
+	<link type="text/css" href="css/pagination.css" rel="stylesheet"/>
+
+	<script src="libs/jquery-1.11.3.js"></script>
+
+
+	<script src="js/getdata3.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<script src="libs/jquery.pagination.js"></script>
+
+	<script src="libs/jquery.cookie.js"></script>
+
+	<script>
+	$(function(){
+		//alert(1)  //ww
+
+		$('#header').load('html/detailsheader.html',function(){
+			$.getScript('js/getheader.js');
+
+			$.getScript('js/getusername.js');
+
+
+		})
+		//container
+		$('.container').load('html/detailcontainer.html',function(){
+
+			$.getScript('js/getdata3.js')
+
+			
+			$.getScript('js/getid.js',function(){
+				$.getScript('js/getfdj.js')//放大镜
+			
+				$.getScript('js/gettime.js')//活动时间
+				
+				$.getScript('js/getbuy.js')//点击购买按钮
+
+				$.getScript('js/getnum.js')//购买的数量
+				
+
+
+			})
+
+		
+
+			$.getScript('js/getdetailtop.js')
+
+			
+
+
+
+
+			
+
+		})
+		//footer
+		$('.footer').load('html/footer.html')
+
+		//panel
+
+		$('.panel').load('html/panel.html',function(){
+			$.getScript('js/getpanel.js')
+
+		})
+	})
+	</script>
+</head>
+<body>
+<div class="warp">
+<!--******************header*************************************-->
+<div id="header">	</div><!--header的结尾 -->
+<!--*******************container*******************************-->
+<div class="container"></div><!--container的结尾-->
+
+<!--*******************footer*******************************-->
+<div class="footer"></div>
+
+<!--********************panel************************-->
+<div class="panel"></div>
+
+
+</div><!--warp的结尾-->
+	
+</body>
+</html>

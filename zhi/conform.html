@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知我药妆(确认订单信息)</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link href="css/com.css" type="text/css" rel="stylesheet"/>
+	<link type="text/css" href="css/settle.css" rel="stylesheet"/>
+	<link type="text/css" href="css/conform.css" rel="stylesheet"/>
+
+	<script src="libs/jquery-1.11.3.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script src="js/conform.js"></script>
+	<script src="js/getbuy.js"></script>
+
+	<script>
+
+	$(function(){
+
+		//header
+
+		$('.header').load('html/conformheader.html',function(){
+			$.getScript('js/getheader.js')
+			$.getScript('js/getusername.js');
+		})
+		//container
+		$('.container').load('html/conformcontainer.html',function(){
+
+			$.getScript('js/conform.js');
+
+			$.getScript('js/getconform.js',function(){
+				
+				
+			});//将添加在页面上
+		})
+
+		//footer
+
+		$('.footer').load('html/footer.html')
+
+	})
+	</script>
+
+</head>
+<body>
+<div class="warp">
+<!--************************header*************************-->
+<div class="header"></div>
+
+<!--************************container*************************-->
+<div class="container"></div><!--container-->
+<!--************************footer*************************-->
+<div class="footer"></div>
+
+	
+
+
+
+</div>
+	
+</body>
+</html>

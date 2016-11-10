@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知我药妆(购物车结算)</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet"/>
+	<link type="text/css" href="css/com.css" rel="stylesheet"/>
+	<link type="text/css" href="css/settle.css" rel="stylesheet"/>
+
+
+
+
+	<script src="libs/jquery-1.11.3.js"></script>
+	<script src="libs/jquery.cookie.js"></script>
+	<script src="js/getbuy.js"></script>
+	<script src="js/getaddsettle.js"></script>
+
+	<script>
+
+	$(function(){
+		//alert(1)  //ww
+		//header
+		$('.header').load('html/settleheader.html',function(){
+			$.getScript('js/getheader.js')
+
+			$.getScript('js/getusername.js');
+		})
+		//container
+
+		$('.container').load('html/settlecontainer.html',function(){
+			$.getScript('js/getpurchase.js')
+
+			
+
+			$.getScript('js/getsettle.js',function(){//结算页面插入内容
+
+				
+				$.getScript('js/getaddsettle.js')
+			})
+
+		})
+
+		//footer
+		$('.footer').load('html/footer.html')
+
+	})
+	</script>
+
+
+</head>
+<body>
+<div class="warp">
+<!--****************************header******************-->
+<div class="header"></div>
+<!--****************************container******************-->
+<div class="container"></div>
+<!--****************************footerr******************-->
+<div class="footer"></div>
+
+</div>
+	
+</body>
+</html>

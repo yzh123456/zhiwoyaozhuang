@@ -1,0 +1,280 @@
+<div class="conformbox">
+		<div class="addressbox">
+			<h2><span>1</span><em>收货地址</em></h2>
+			<!--点击生成一列-->
+			<div class="adder" style="display:none;">
+				<div class="paycfm_addresslist">
+					<ul class="f1">
+						<li class="current show">
+							<span class="paycfm_addname">哈哈哈
+							</span>
+							<span class="paycfm_addphone">187****6789 
+							</span>
+							<span class="paycfm_addcont">河北省-唐山市-路南区 说什哈哈哈哈</span>
+							<span class="paycfm_addyoubian">782738
+							</span>
+							<a class="paycfm_adddel" href="javascript:;">删除</a>
+
+						</li>
+
+					</ul>
+
+				</div><!--paycfm_addresslist-->
+				<div class="paycfm_add_newaddress"><a href="javascript:;">使用新地址</a>
+				</div>
+
+				</div>
+
+			
+			<div class="adderlist">
+				<h3><span>创建收货地址</span><i class="newclose"></i></h3>
+				<div class="newcont">
+					<p>
+						<label for="">收件人姓名：</label><i>*</i>
+							<input class="pername" name="receiver_name" type="text"><span class="error_tip">请填写正确的收货人姓名</span>
+					</p>
+					<p><label for="">所在地区：</label><i>*</i>
+								<select id="province" class="address_input" name="province">
+									<option selected="" value="0">请选择</option><option >北京市</option><option>天津市</option><option >河北省</option><option >山西省</option><option >内蒙古自治区</option><option >辽宁省</option><option >吉林省</option><option>黑龙江省</option><option>上海市</option><option >江苏省</option><option>浙江省</option><option >安徽省</option><option>福建省</option><option >江西省</option><option >山东省</option><option >河南省</option><option >湖北省</option><option >湖南省</option>
+								</select>
+								<select id="city" class="address_input item1" name="city">
+									<option selected="" value="0">市</option>
+								<option>市辖区</option>
+								<option >县</option>
+								</select>
+								<select id="dist" class="address_input item2" name="dist">
+									<option selected="" value="0">区/县</option>
+								<option value="120101">和平区</option><option value="120102">河东区</option><option value="120103">河西区</option><option value="120104">南开区</option><option value="120105">河北区</option><option value="120106">红桥区</option><option value="120107">塘沽区</option><option value="120108">汉沽区</option><option value="120109">大港区</option><option value="120110">东丽区</option><option value="120111">西青区</option><option value="120112">津南区</option><option value="120113">北辰区</option><option value="120114">武清区</option><option value="120115">宝坻区</option></select><span class="error_tip adder">请填写完整的地址信息</span>
+								
+					</p>
+					<p><label for="">详细地址：</label><i>*</i><input class="paycfm_peraddress" name="street" type="text" placeholder="请填写详细地址"><span class="error_tip">请填写详细地址，不少于3个汉字，不能全部是数字/字母</span></p>
+
+					<p><label for="">邮政编码：</label><i>*</i><input class="paycfm_peryoubian" name="postalcode" type="text"><span class="error_tip">邮政编码错误</span></p>
+					<p class="paycfm_phonewrite">
+						<label for="">手机号码：</label><i>*</i><input class="paycfm_perphone" name="mobile" type="text"><span class="contact_ele"></span>
+						<label for="">固定电话：</label><input class="paycfm_perphone" name="phone" type="text">
+						<span class="error_tip">请填写正确手机号码，手机号码为11位数字</span></p>
+
+					<p><label for="">邮箱：</label><input class="paycfm_peremail" name="email" type="text"><span class="error_tip">邮箱错误</span>
+					</p>
+
+					<p class="paycfm_savebtn"><a href="javascript:;" id="save_addr">保存并使用</a></p>
+
+				</div><!--newcont-->
+
+			</div><!--adderlist-->
+
+
+		</div><!--addressbox-->
+
+		<div class="paycfm_probox">
+			<h2><span>2</span><em>商品清单</em><a href="settle.html"><i>&lt;&lt;</i>返回购物车</a>
+			</h2>
+			<div class="paycfm_procont">	
+				<div class="paycfm_prolist">
+					<table>
+						<tr class="thead"> 
+								<th class="paytable_name">选购的商品</th>
+								<th class="paytable_price">单价</th>
+								<th class="paytable_amonut">数量</th>
+								<th class="paytable_totle">金额小计</th>
+
+							</tr>
+
+
+					</table>
+					<table class="table_list">
+					
+						
+						
+						
+
+
+						
+					</table>
+
+				</div><!--paycfm_prolist-->
+
+
+				
+					<div class="paycfm_payyouhui">
+						<div class="paycfm_yhway">
+							<p class="paycfm_yhwaytitle  no-exclude">使用知我药妆优惠券</p>
+
+						</div><!--paycfm_yhway-->
+						<div class="paycfm_yhway">
+							<p class="paycfm_yhwaytitle  no-exclude">请输入红包号</p>
+
+						</div><!--paycfm_yhway-->
+						<div class="paycfm_yue">
+									<p>账户余额：<span>0.00</span></p>
+						</div>
+
+
+					</div><!--paycfm_payyouhui-->
+					<div class="paycfm_itemlist">
+						<p><em><i>￥</i><span id="total_amount">75.00</span></em><span class="r">总价：</span>
+						</p>
+						<p><em><i>￥</i><span id="delivery_fee">0.00</span></em><span class="r">运费：</span>
+						</p>
+						<p class="paycfm_itemtotle"><em><i>￥</i><span class="need_pay">75.00</span></em><span class="r">需支付总额：</span>
+						</p>
+
+					</div><!--paycfm_itemlist-->
+
+
+
+			</div><!--paycfm_procont-->
+
+
+		</div><!--paycfm_probox-->
+
+
+		<div class="paycfm_waybox">
+			<h2><span>3</span><em>支付方式</em></h2>
+			<div class="paycfm_waysel">
+				<dl class="clearfix">
+								<dt>支付平台</dt>
+								<dd class="clearfix payway_ current">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay" name="Alipay" style="background-position:0 -190px"><i ></i></div>
+								</dd>
+								<dd class="clearfix payway_ ">
+									<label for=""></label>
+									<div class="payonline_waylist AlipayQr" name="AlipayQr"><i></i></div>
+								</dd>
+				</dl>
+
+				
+				<div class="payonline_terrace_more">
+								<div class="paymore_btn">点击更多支付方式
+								</div>
+				</div>
+
+				<dl class="clearfix" style="height:281px;">
+								<dt>网银支付</dt>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CMB" name="Alipay_CMB"  style="background-position:0 -228px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CCB" name="Alipay_CCB" style="background-position:0 -490px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_ICBCB2C" name="Alipay_ICBCB2C"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_BOCB2C" name="Alipay_BOCB2C" style="background-position:0 -836px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_ABC" name="Alipay_ABC" style="background-position:0 -266px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_COMM" name="Alipay_COMM" style="background-position:0 -494px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_PSBC-DEBIT" name="Alipay_PSBC-DEBIT" style="background-position:0 -760px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CITIC" name="Alipay_CITIC" style="background-position:0 -722px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CIB" name="Alipay_CIB"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_SPDB" name="Alipay_SPDB" style="background-position:0 -608px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CMBC" name="Alipay_CMBC"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CEBBANK" name="Alipay_CEBBANK"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_NBBANK" name="Alipay_NBBANK"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_SDB" name="Alipay_SDB"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_BJRCB" name="Alipay_BJRCB"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_SPABANK" name="Alipay_SPABANK"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_GDB" name="Alipay_GDB"><i></i></div>
+								</dd>
+						</dl>
+
+
+
+				<dl class="clearfix" ">
+								<dt>信用卡支付（快捷支付）</dt>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CMB" name="Alipay_CMB"  style="background-position:0 -228px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_CCB" name="Alipay_CCB" style="background-position:0 -490px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_ICBCB2C" name="Alipay_ICBCB2C"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_BOCB2C" name="Alipay_BOCB2C" style="background-position:0 -836px"><i></i></div>
+								</dd>
+								<dd class="clearfix payway_">
+									<label for=""></label>
+									<div class="payonline_waylist Alipay_ABC" name="Alipay_ABC" style="background-position:0 -266px"><i></i></div>
+								</dd>
+								
+
+							</dl>
+
+
+
+
+
+
+			</div><!--paycfm_waysel-->
+
+
+		</div><!--paycfm_waybox-->
+
+		<div class="paycfm_beizhubox">
+					<h2><span>3</span><em>订单备注</em>
+					</h2>
+					<div class="paycfm_contbox clearfix">
+						<div class="paycfm_beizhutip">
+							<p>如您有特殊要求，请在此处留言，限140字以内</p>
+							<input id="remarks_" class="paycfm_beizhuinfo" type="text">
+						</div>
+						<div class="payonline_gobox">
+							<p><a class="payonline_gopaybtn" id="create_order_" href="succsee.html">确定订单</a><span>应付金额：<i>￥</i><em class="need_pay" id="need_pay">64.00</em></span></p>
+						</div>
+					</div>
+
+
+		</div><!--paycfm_beizhubox-->
+
+	</div><!--conformbox-->

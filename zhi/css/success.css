@@ -1,0 +1,156 @@
+.container{
+	padding-top: 35px;
+	margin-bottom: 35px;
+}
+.contbox{
+    width: 960px;
+    margin: 0 auto;
+}
+.paystatus_tip {
+    width: 900px;
+    background: #fff;
+    padding: 35px 30px;
+}
+.paystatus_tip .paycmsg_title {
+    margin-bottom: 20px;
+}
+
+.paycmsg_title{
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+    font-family: '微软雅黑';
+    margin-bottom: 25px;
+    background: url('../images/shopcar_ico.png') no-repeat 0 -72px;
+    padding-left: 40px;
+}
+.paystatus_tipcont {
+    padding-left: 40px;
+    color: #000;
+}
+.paystatus_tipcont p {
+    line-height: 30px;
+}
+.paycmsg_l_tip1 em {
+    margin-right: 34px;
+}
+.paycmsg_l_tip1 i {
+    font-style: normal;
+    color: #ff643c;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    margin-left: -4px;
+}
+.paycmsg_l_tip1 strong {
+    font-weight: normal;
+    color: #ff643c;
+    font-family: Arial;
+    font-size: 24px;
+}
+.paycmsg_l_tip1 span,.paystatus_tip2{
+	font-size: 12px;
+}
+.paystatus_quxiaotip {
+    padding: 20px 0;
+}
+.paystatus_quxiaotip p {
+    text-align: right;
+    color: #000;
+    font-size:12px;
+}
+.paystatus_quxiaotip p span {
+    color: #ff643c;
+}
+.paygomoney_box {
+    width: 930px;
+    background: #fff;
+    padding: 30px 0px 45px 30px;
+}
+.paygomoney_btip {
+    overflow: hidden;
+    margin-bottom: 25px;
+    font-size:12px;
+}
+.paygomoney_btip span {
+    float: left;
+}
+.paygomoney_btip em {
+    font-style: normal;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    float: left;
+    margin: -4px 6px 0 2px;
+}
+.paygomoney_payway {
+    overflow: hidden;
+}
+.paygomoney_payway span {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.paygomoney_payway .payway_sel {
+    float: left;
+}
+.paygomoney_payway .payway_sel .payonline_waylist {
+    border: 1px #ff643c solid;
+    clear: both;
+    cursor: default;
+
+}
+.payonline_waylist {
+    width: 138px;
+    height: 38px;
+    border: 1px #c4c4c4 solid;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    background: url('../images/shopcar_ico4.png') no-repeat 0 0;
+}
+.paygomoney_payway span{
+	 font-size:12px;
+}
+.payonline_gobox {
+    margin-top: 34px;
+    }
+.paygomoney_box .payonline_gobox p {
+    text-align: left;
+}
+.paygomoney_box .payonline_gobox p span {
+    float: left;
+    margin-top:3px;
+    font-size:12px;
+}
+.payonline_gobox p i {
+    color: #ff643c;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    font-style: normal;
+}
+.payonline_gobox p em {
+    color: #ff643c;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 36px;
+}
+.paygomoney_box .payonline_gopaybtn {
+    float: left;
+    width: 156px;
+}
+.payonline_gopaybtn {
+    width: 126px;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    color: #fff;
+    text-align: center;
+    font-family: '微软雅黑';
+    font-size: 24px;
+    background: #ff643c;
+    margin-left: 22px;
+}
+.swindlertip_box {
+    width: 960px;
+    height: 293px;
+    margin-top: 40px;
+}

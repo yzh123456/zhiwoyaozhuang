@@ -1,0 +1,252 @@
+
+.header_center{
+	background: #fff;
+    height: 108px;
+}
+.header_center .header_center_inner{
+	margin: 0 auto;
+	width: 960px;
+
+}
+.header_center_inner .header_logo{
+	float: left;
+    width: 260px;
+    height: 108px;
+}
+.header_center .header_center_inner img{
+	diaplay:block;
+}
+.header_center .header_tip{
+	float:right;
+	width: 452px;
+    height: 108px;
+}
+/**********************************container**************************/
+.container_box{
+	width: 100%;
+    height: 785px;
+    position: relative;
+    font-family: '微软雅黑';
+}
+.contbox_banner{
+	width: 100%;
+    height: 785px;
+    z-index: 1;
+    position: relative;
+}
+ .contbox_banner  a {
+    width: 100%;
+    height: 785px;
+    display: block;
+    background:url(../images/2569699673708683028.jpg) no-repeat center center;
+    }
+
+    .error{
+    color: red;
+    display:none;
+    height:14px;
+    line-height:14px;
+}
+.login_box{
+	width: 326px;
+    height: 459px;
+    background: #fff;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    z-index: 2;
+    margin-left: 74px;
+    box-shadow: 0 0 26px #fcdfdf;
+    padding: 30px 40px 40px;
+}
+.login_title{
+		margin-bottom: 35px;
+	}
+.login_title p{
+	overflow:hidden;
+}
+
+.login_title p span	{
+		font-size: 24px;
+    color: #000;
+    float: left;
+
+	}
+
+.login_title p a	{
+		font-size: 16px;
+    color: #00c8ff;
+    float: right;
+    margin-top: 7px;
+	}
+
+	.userlogin_info{
+		margin-bottom: 15px;
+	}
+.userlogin_info .account{
+	margin-bottom: 24px;
+}
+.userlogin_info .account  .info_name{
+	margin-bottom: 4px;
+}
+
+.userlogin_info .account  .info_name label,.info_password label,.info_code label{
+	float: left;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: #000;
+}
+.info_txt{
+	position: relative;
+}
+.info_txt input{
+	    width: 314px;
+    height: 16px;
+    border: 1px #c4c4c4 solid;
+    font-size: 14px;
+    padding: 7px 0;
+    color: #6c6c6c;
+    padding-left: 10px;
+}
+.info_password{
+	margin-bottom:10px;
+}
+.info_code{
+	height: 56px;
+
+
+}
+.info_code .info_name{
+	width:314px;
+	height:25px;
+}
+#logincode{
+	width: 165px;
+	float:left;
+
+}
+.info_code a {
+	display:block;
+	float:left;
+	width: 90px;
+    height: 38px;
+    background:url(../images/bj.jpg) no-repeat ;
+    margin-left: 6px;
+    margin-top: -6px;
+    
+}
+.info_code .info_txt span {
+    float: left;
+    color: #00c8ff;
+    margin: 9px 0 0 11px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.info_operate {
+    width: 326px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.auto_login{
+	float:left;
+}
+.forget_password{
+	float:right;
+}
+.forget_password a{
+	color:#6c6c6c;
+}
+.nfo_btn p input{
+	width: 326px;
+    height: 36px;
+    background: #00c8ff;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    border: 0;
+    letter-spacing: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.userlogin_other {
+    border-top: 1px #e3e3e3 dotted;
+    padding-top: 20px;
+}
+.pin{
+	margin-top:-5px;
+}
+.userlogin_other .connect{
+	margin-top: 8px;
+    margin-left: -20px;
+    overflow:hidden;
+}
+.connect li {
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+.connect .qq a{
+	background: url(../images/other_autoico.png) no-repeat 0 0;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.connect .alipay a{
+	background: url(../images/other_autoico.png) no-repeat 0 -30px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.connect .sina a{
+	background: url(../images/other_autoico.png) no-repeat 0 -60px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.connect .t360 a{
+	background: url(../images/other_autoico.png) no-repeat 0 -90px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.connect .baidu a{
+	background: url(../images/other_autoico.png) no-repeat 0 -120px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+
+.connect .renren a{
+	background: url(../images/other_autoico.png) no-repeat 0 -150px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+		
+.connect .xunlei a{
+	background: url(../images/other_autoico.png) no-repeat 0 -180px;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.check {
+    cursor: pointer;
+    display: block;
+    padding-left: 18px;
+    background: url(../images/sel.png) no-repeat 0 -56px;
+}			
+.checkgin{
+    cursor: pointer;
+    display: block;
+    padding-left: 18px;
+    background: url(../images/sel.png) no-repeat 0 -36px;
+}

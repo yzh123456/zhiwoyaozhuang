@@ -1,0 +1,37 @@
+
+.login_box .userlogin_info .account,.login_box .userlogin_info  .info_password,.password_conform{
+    height:56px;
+    margin-bottom:0;
+}
+
+
+
+.login_title a span {
+    font-size: 12px;
+    color: #c4c4c4;
+    margin-top: 6px;
+}
+.userlogin_info {
+    margin-bottom: 15px;
+    margin-top: -16px;
+}
+.error {
+    font-size: 12px;
+    color: #ff643c;
+    margin-top: 3px;
+    height:20px;
+    width:326px;
+    line-height:14px;
+    height:14px;
+    position: relative;
+    display:none;
+}
+
+
+.nfo_btn {
+    margin-top: 12px;
+}
+.zhiwo_xieyi a {
+    color: #00c8ff;
+    font-size:12px;
+}
